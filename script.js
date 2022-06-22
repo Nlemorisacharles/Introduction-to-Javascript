@@ -9,19 +9,19 @@ if(isNaN(num1) || isNaN(num2)){
 }else{
     if(opr){
         if(opr == '+'){
-            var result = num1 + num2;
+            result = num1 + num2;
             alert('Your answer is ' + result)
         }
         else if(opr == '-'){
-            var result = num1 - num2;
+             result = num1 - num2;
             alert('Your answer is ' + result)
         }
         else if(opr == '*'){
-            var result = num1 * num2;
+            result = num1 * num2;
             alert('Your answer is ' + result)
         }
         else if(opr == '/'){
-            var result = num1 / num2;
+            result = num1 / num2;
             alert('Your answer is ' + result)
         }
     }
